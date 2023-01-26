@@ -47,7 +47,7 @@ public class Main {
     public static void task3 () {
         System.out.println("Задача 3");
         int[] arr = generateRandomArray();
-        int sum = 0;
+        double sum = 0;
         for (int index = 0; index < arr.length; index++){
             //System.out.println(arr[index]);
             sum += arr[index];
